@@ -25,7 +25,7 @@ const logos = [
 export default function LogoTicker() {
     return <section className="py-24 overflow-x-clip"> 
         <div className="container">
-           <div className="sticky top-0">
+           
            <h3 className=" text-center text-white/50 text-xl">Already Choosen by these Market Leaders</h3>
             <div className="flex overflow-hidden mt-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"> 
                 <motion.div 
@@ -47,8 +47,9 @@ export default function LogoTicker() {
                 </motion.div>
             </div>
            </div>
-        </div>
+           
+       
 
-        <div className="h-[150vh]"></div>
+       
     </section>
     }

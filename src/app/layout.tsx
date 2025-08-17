@@ -10,8 +10,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Modern Design Tool Landing Page",
-    description: "Created with the help of Frontend Tribe",
+    title: "Layers Modern Landing Page",
+    description: "Created with next js , tailwind css and Framer Motion for Animations",
+    icons: {
+        icon: '/assets/logo.svg',
+    },
 };
 
 export default function RootLayout({

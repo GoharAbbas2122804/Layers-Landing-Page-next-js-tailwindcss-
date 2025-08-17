@@ -42,7 +42,7 @@ export default function Hero() {
             [rightPointerScope.current , {y:0 , x:100} , {duration: 0.5}],
             [rightPointerScope.current , {x:0 , y:[0,16,0]} , {duration: 0.5 , ease: "easeInOut"}]
         ])
-    }, [])
+    }, [leftDesignAnimate, leftDesignScope, leftPointerAnimate, leftPointerScope, rightDesignAnimate, rightDesignScope, rightPointerAnimate, rightPointerScope])
 
 
     return (

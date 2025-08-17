@@ -39,8 +39,10 @@ export default function Navbar() {
 
                         <div className="lg:flex justify-center items-center hidden">
                             <nav className="flex gap-6 font-medium">
-                                {navLinks.map((link) => (
-                                    <a href={link.href}>{link.label}</a>
+                                {navLinks.map((link, index) => (
+                                    <a key={index} href={link.href}>
+                                        {link.label}
+                                    </a>
                                 ))}
                             </nav>
                         </div>
